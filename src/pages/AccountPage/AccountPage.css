@@ -1,0 +1,62 @@
+
+.nickname {
+  color: white;
+  font-size: 40px;
+  text-align: left;
+}
+
+.userDescription {
+  color: white;
+}
+
+.userImage img {
+  width: auto;
+  height: auto;
+}
+
+.nicknameTable {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 5%;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 720px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.menu .accountLi {
+  width: 150px;
+  height: 20px;
+  transition: background-position-x 0.9s linear;
+}
+
+#accountlinks {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.45s;
+}
+
+.underLine {
+  color: white;
+}
+
+table{
+    border-spacing: 50px;
+  }
+
+.ownedImage img {
+  width: 325px;
+  height: 500px;
+}
+
+.ownedGamesTable {
+  margin-left: auto;
+  margin-right: auto;
+}

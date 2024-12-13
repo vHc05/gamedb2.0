@@ -1,0 +1,39 @@
+
+.text {
+  color: white;
+  margin-left: 5%;
+}
+
+.patchGameName {
+  color: white;
+  text-align: left;
+
+}
+
+.patchTime {
+  color: white;
+  text-align: left;
+
+}
+
+.patchInfo {
+  color: white;
+  text-align: left;
+}
+
+.patchTable {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #FAFAC6;
+  border-radius: 5px;
+
+}
+
+.patchTable .gameImage img{
+  height: 162px;
+  width: 162px;
+}
+
+.gameImage {
+  text-align: center;
+}

@@ -1,0 +1,108 @@
+/* Estilo general del encabezado */
+#tools {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+#notTools {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    color: black;
+}
+
+.header {
+    position: relative;
+    background-color: #FAFAC6;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Logo {
+    width: 200px;
+    margin-top: 0.5em;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    /* Ajusta el espacio según lo que necesites */
+}
+
+#Search,
+#Menu {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#Search {
+    margin-right: 5%;
+}
+
+/* Estilos del menú desplegable */
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    /* Ocupa toda la altura */
+    width: 25%;
+    /* Ocupa el 25% del ancho */
+    max-width: 300px;
+    background-color: #FAFAC6;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.3);
+    /* Sombra */
+    transform: translateX(100%);
+    /* Fuera de la pantalla inicialmente */
+    transition: transform 0.5s ease-in-out;
+    /* Transición suave */
+    z-index: 10;
+    /* Asegura que el menú esté sobre otros elementos */
+    overflow: hidden;
+}
+
+.menu-open {
+    transform: translateX(0);
+}
+
+.menu-closed {
+    transform: translateX(100%);
+}
+
+/* Estilo para el icono de cerrar */
+#Menu {
+    position: absolute;
+    top: 10px;
+    /* Ajusta según el diseño */
+    right: 10px;
+    /* Ajusta según el diseño */
+    z-index: 15;
+    /* Encima del menú */
+    background-color: transparent;
+}
+
+/* Opciones del menú alineadas a la derecha */
+.menu ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: right;
+    /* Alinea el texto a la derecha */
+}
+
+.menu li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.footer {
+    width: 100vw;
+    height: 80%;
+    background-color: #FAFAC6;
+    display: 'flex';
+    justify-content: center;
+    align-items: center;
+}
+
+.rss {
+    margin-left: 35%;
+}
+
+#IG {
+    margin: 0.5%;
+    width: 5.0vw;
+    height: 5.0vh;
+
+}
+
+#X {
+    margin: 0.5%;
+    width: 5.0vw;
+    height: 5.0vh;
+    margin-left: 5%;
+}
+
+#TW {
+    margin: 0.5%;
+    width: 5.0vw;
+    height: 5.0vh;
+    margin-left: 5%;
+}
+
+#DON {
+    margin: 0.5%;
+    width: 5.0vw;
+    height: 5.0vh;
+    margin-left: 5%;
+}
+

@@ -1,0 +1,67 @@
+.loginBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+}
+
+#steam {
+    width: 295px;
+    height: 80px;    
+    margin-bottom: 4%;
+}
+
+#loginText1 {
+
+width: 301px;
+height: 221px;
+left: 0px;
+top: 229px;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #FFFFFF;
+text-align: justify;
+
+}
+
+#signIn {
+
+width: 196px;
+height: 40px;
+left: 122px;
+top: 557px;
+background-color: #FECDAA;
+border-radius: 15px;
+border: #FECDAA;
+transition-duration: 0.5s;
+
+}
+
+#signIn:hover {
+    background-color: #474350;
+    color: white;
+    border: 2px solid #FECDAA;
+  }
+
+#loginText2 {
+margin-top: 3%;
+width: 301px;
+height: 34px;
+left: 0px;
+top: 542px;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+
+color: #FFFFFF;
+
+
+}

@@ -1,0 +1,40 @@
+.text {
+  color: white;
+  margin-left: 5%;
+}
+
+.currentPlayers {
+  color: white;
+  text-align: center;
+}
+
+.todayPlayers {
+  color: white;
+  text-align: center;
+}
+
+.allTimePlayers {
+  color: white;
+  text-align: center;
+}
+
+.chartTable {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #fafac6;
+  border-radius: 5px;
+}
+
+.chartTable .gameImage img{
+  height: 162px;
+  width: 162px;
+}
+
+.chartGameName {
+    color: white;
+    text-align: left ;
+}
+
+.gameImage {
+  text-align: center;
+}
